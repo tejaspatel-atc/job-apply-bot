@@ -115,7 +115,7 @@ class ScrapService:
                 
                 try:
                     if field_type == "file":
-                        file_path = "/home/karan/Desktop/Jop Application/resume.pdf"
+                        file_path = "/home/tejas/Desktop/job-apply-bot/resume.pdf"
                         file_input = self.page.locator(f"input[data-ui='{field['data-ui']}']")
                         file_input.set_input_files(file_path)
                 except Exception as e:
